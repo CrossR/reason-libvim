@@ -72,7 +72,7 @@ describe("Search", ({describe, _}) => {
     test("matching bracket is none when there is no match", ({expect}) => {
       let _ = resetBrackets();
 
-      input("j");
+      input("G");
 
       let bracket = Search.getMatchingPair();
       switch (bracket) {
